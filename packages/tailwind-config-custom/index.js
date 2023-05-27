@@ -1,5 +1,8 @@
 /** @type {import('tailwindcss').Config} */
+const defaultConfig = require("tailwindcss/defaultConfig");
+const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
+  extends: defaultConfig,
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -9,7 +12,7 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: defaultTheme,
   },
   plugins: [],
 }
