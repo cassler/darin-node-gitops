@@ -3,8 +3,10 @@ import { Button, Header } from "ui";
 export default function Page() {
   return (
     <>
-      <Header text="Web" />
-      <Button />
+      <Header text="darin.co" />
+      <div className="container mx-auto py-4">
+        <Button />
+      </div>
     </>
   );
 }
