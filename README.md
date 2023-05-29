@@ -1,6 +1,4 @@
-# Turborepo starter
-
-This is an official starter Turborepo.
+# Gitops starter
 
 ## Using this example
 
@@ -32,12 +30,29 @@ This Turborepo has some additional tools already setup for you:
 - [ESLint](https://eslint.org/) for code linting
 - [Prettier](https://prettier.io) for code formatting
 
+
+## Recommended Extensions
+
+Please install the recommended extensions for VSCode. This will ensure you have a coding experience consistent with our development standards.
+
+## Commit Messages
+
+We enforce Conventional Commit messages. You will receive an error if trying to commit with an invalid message. Read more about [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/). Below are some examples of valid commit messages:
+
+```
+feat(ui): add Button component
+fix(web): issue where server wouldnt start NW-23
+ci: added a new workflow in github actions
+perf(web): added optimistic updates to API fetch methods
+```
+
+The [full specification can be found here](https://www.conventionalcommits.org/en/v1.0.0/#summary)
+
 ### Build
 
 To build all apps and packages, run the following command:
 
 ```
-cd my-turborepo
 pnpm build
 ```
 
@@ -46,7 +61,6 @@ pnpm build
 To develop all apps and packages, run the following command:
 
 ```
-cd my-turborepo
 pnpm dev
 ```
 
@@ -57,7 +71,6 @@ Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo
 By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
 
 ```
-cd my-turborepo
 npx turbo login
 ```
 
