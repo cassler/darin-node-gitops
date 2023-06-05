@@ -11,7 +11,7 @@
     "@commitlint/cli": "^17.6.3",
     "@commitlint/config-conventional": "^17.6.3",
     "@turbo/gen": "^1.9.7",
-    "eslint": "^7.32.0",
+    "eslint": "^8.42.0",
     "eslint-config-custom": "workspace:*",
     "eslint-config-next": "^13.4.1",
     "eslint-plugin-prettier": "^4.2.1",
