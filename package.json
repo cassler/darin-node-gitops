@@ -10,7 +10,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.6.3",
     "@commitlint/config-conventional": "^17.6.3",
-    "@turbo/gen": "^1.9.7",
+    "@turbo/gen": "^1.10.12",
     "eslint": "^7.32.0",
     "eslint-config-custom": "workspace:*",
     "eslint-config-next": "^13.4.1",
